@@ -4,7 +4,7 @@ title: "Adding UI/UX Case - 9"
 date: 2022-07-20 11:23:21 +0100
 categories: [UI-UX]
 image: post-image-two.png
-description: This is a description of the above post
+description: Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis 
 ---
 
 # Header One

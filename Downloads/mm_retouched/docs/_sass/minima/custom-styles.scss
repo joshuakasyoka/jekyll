@@ -1,0 +1,117 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.banner {
+	display: flex;
+	background-color: $primary-main;
+	color: #ffffff;
+	color: white;
+	padding: 30px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.banner-info {
+	align-self: center;
+}
+
+.banner-post {
+	background-color: #2fb6bc;
+}
+
+.banner-image {
+	height: 40%;
+	width: 40%;
+	float: right;
+	margin: -30px;
+
+	@include media-query($on-palm) {
+		height: 65%;
+		width: 65%;
+	}
+}
+
+.category-tag {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 11px;
+	padding-right: 11px;
+	border-width: 1px;
+	border-color: $primary-main;
+	border-radius: 100px;
+	margin-right: 15px;
+	border-style: solid;
+	color: $primary-main;
+}
+
+.tag-container {
+	display: flex;
+	flex-direction: row;
+
+	@include media-query($on-palm) {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+.post-card {
+	display: flex;
+	flex-direction: row;
+	padding: $spacing-unit * 1.5;
+	justify-content: space-between;
+	gap: $spacing-unit * 1.5;
+	// margin-left: 48px;
+	// margin-right: 48px;
+	// margin-top: 50px;
+
+	@include media-query($on-palm) {
+		flex-direction: column;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.post-image {
+	height: 400px;
+	width: 400px;
+
+	@include media-query($on-palm) {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+.post-width {
+	margin-right: $spacing-unit * 2;
+	padding: 48px;
+	width: 100%;
+}
+
+.secondary-navigation {
+	background-color: $light-background;
+	padding: $spacing-unit * 1.5;
+	width: 300px;
+}
+
+.secondary-navigation-title {
+	font-weight: 600;
+}
+
+.post-body {
+	display: flex;
+	flex-direction: row;
+}
+
+.category-head {
+	font-weight: 600;
+
+	&:active,
+	&:hover {
+		color: #7939f7;
+		text-decoration: none;
+	}
+}
+
+.archive-group {
+	margin-bottom: $spacing-unit;
+}
